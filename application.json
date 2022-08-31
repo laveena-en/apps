@@ -1,0 +1,31 @@
+{
+  "pages": [
+    {
+      "id": "Welcome",
+      "isDefault": true
+    },
+    {
+      "id": "CreateTODO",
+      "isDefault": false
+    },
+    {
+      "id": "All TODOs",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "62d68097b06ce90d91dba370",
+  "color": "#FFEFDB",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}
