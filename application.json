@@ -19,10 +19,10 @@
   "clonedFromApplicationId": "62d68097b06ce90d91dba370",
   "color": "#FFEFDB",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "TABLET"
   },
   "publishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "evaluationVersion": 2,
   "applicationVersion": 2,

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 920,
+          "bottomRow": 850,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -31,8 +31,8 @@
               "widgetName": "Image1",
               "displayName": "Image",
               "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
-              "topRow": 10,
-              "bottomRow": 61,
+              "topRow": 32,
+              "bottomRow": 83,
               "parentRowSpace": 10,
               "type": "IMAGE_WIDGET",
               "hideCard": false,
@@ -40,7 +40,7 @@
               "parentColumnSpace": 12.5625,
               "dynamicTriggerPathList": [],
               "imageShape": "RECTANGLE",
-              "leftColumn": 1,
+              "leftColumn": 5,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -50,7 +50,7 @@
               "key": "ud8ebm9czt",
               "image": "https://i.gifer.com/XP62.gif",
               "isDeprecated": false,
-              "rightColumn": 32,
+              "rightColumn": 21,
               "objectFit": "auto",
               "widgetId": "2kmmanixvh",
               "isVisible": true,
@@ -79,7 +79,7 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 18.15625,
-              "leftColumn": 32,
+              "leftColumn": 37,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -359,13 +359,142 @@
               "key": "9w9lfbc2lu",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 56,
+              "rightColumn": 64,
               "widgetId": "396i1bhe5s",
               "isVisible": true,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "resetFormOnClick": false,
+              "boxShadow": "none",
+              "widgetName": "Button1",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 73,
+              "bottomRow": 77,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 23.984375,
+              "leftColumn": 28,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "Submit",
+              "isDisabled": false,
+              "key": "jpcztagb6d",
+              "isDeprecated": false,
+              "rightColumn": 44,
+              "isDefaultClickDisabled": true,
+              "widgetId": "jb2ug0irmu",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "disabledWhenInvalid": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
+            },
+            {
+              "resetFormOnClick": false,
+              "boxShadow": "none",
+              "widgetName": "Button2",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 3,
+              "bottomRow": 7,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "leftColumn": 9,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "Submit",
+              "isDisabled": false,
+              "key": "73zof99vhz",
+              "isDeprecated": false,
+              "rightColumn": 25,
+              "isDefaultClickDisabled": true,
+              "widgetId": "xaqys3yml8",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "disabledWhenInvalid": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "AudioRecorder1",
+              "displayName": "Audio Recorder",
+              "iconSVG": "/static/media/icon.3cb03cd8ed8464c5725a5d89a8fa563f.svg",
+              "searchTags": [
+                "sound recorder",
+                "voice recorder"
+              ],
+              "topRow": 4,
+              "bottomRow": 12,
+              "parentRowSpace": 10,
+              "type": "AUDIO_RECORDER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "leftColumn": 30,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "uzqg1esjh4",
+              "isDeprecated": false,
+              "rightColumn": 46,
+              "widgetId": "rzwkq3uzew",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "iconColor": "white"
             }
           ]
         },
