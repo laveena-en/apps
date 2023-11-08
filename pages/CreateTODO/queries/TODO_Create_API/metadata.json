@@ -33,6 +33,7 @@
       "body": "{{\n\t{\n\t\tid: (Math.random() + 1).toString(36).substr(2, 9), // https://stackoverflow.com/a/8084248/9387542\n\t\temail: appsmith.store.email,\n\t\tcreated: new Date().getTime(), // get current time in JavaScript\n\t\ttitle: fields_title.text,\n\t\tdate: fields_date.formattedDate,\n\t\tpriority: {\n\t\t\tlabel: fields_priority.selectedOptionLabel,\n\t\t\tvalue: \tfields_priority.selectedOptionValue\n\t\t},\n\t\tdescription: fields_description.text\n\t}\n}}",
       "bodyFormData": [],
       "httpMethod": "POST",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": true
