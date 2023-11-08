@@ -1,0 +1,14 @@
+{{
+	{
+		id: (Math.random() + 1).toString(36).substr(2, 9), // https://stackoverflow.com/a/8084248/9387542
+		email: appsmith.store.email,
+		created: new Date().getTime(), // get current time in JavaScript
+		title: fields_title.text,
+		date: fields_date.formattedDate,
+		priority: {
+			label: fields_priority.selectedOptionLabel,
+			value: 	fields_priority.selectedOptionValue
+		},
+		description: fields_description.text
+	}
+}}

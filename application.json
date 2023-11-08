@@ -19,11 +19,17 @@
   "clonedFromApplicationId": "62d68097b06ce90d91dba370",
   "color": "#FFEFDB",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
