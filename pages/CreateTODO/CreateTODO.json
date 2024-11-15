@@ -1,42 +1,32 @@
 {
+  "gitSyncId": "62dfb8bf1d816b5fddf3a3b5_62dfb8bf1d816b5fddf3a3bb",
   "unpublishedPage": {
-    "name": "CreateTODO",
-    "slug": "createtodo",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 900,
-          "containerStyle": "none",
-          "snapRows": 64,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
           "minHeight": 650,
           "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [],
-        "validOnPageLoadActions": true,
-        "id": "CreateTODO",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 64,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "62dfb8bf1d816b5fddf3a3b5_62dfb8bf1d816b5fddf3a3bb"
+    "name": "CreateTODO",
+    "slug": "createtodo"
+  }
 }

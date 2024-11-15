@@ -1,57 +1,65 @@
 {
-    "boxShadow": "none",
-    "widgetName": "fields_email",
-    "displayName": "Input",
-    "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-    "onSubmit": "",
-    "searchTags": [
-        "form",
-        "text input",
-        "number",
-        "textarea"
-    ],
-    "topRow": 19,
-    "bottomRow": 23,
-    "parentRowSpace": 10,
-    "labelWidth": 5,
-    "autoFocus": false,
-    "type": "INPUT_WIDGET_V2",
-    "hideCard": false,
-    "animateLoading": false,
-    "parentColumnSpace": 18.15625,
-    "dynamicTriggerPathList": [
-        {"key": "onTextChanged"},
-        {"key": "onSubmit"}
-    ],
-    "resetOnSubmit": false,
-    "leftColumn": 5,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"}
-    ],
-    "labelPosition": "Top",
-    "labelStyle": "",
-    "inputType": "EMAIL",
-    "isDisabled": false,
-    "key": "aw04wt3gi3",
-    "labelTextSize": "0.875rem",
-    "isRequired": true,
-    "onTextChanged": "{{storeValue('email',fields_email.text)}}",
-    "isDeprecated": false,
-    "rightColumn": 59,
-    "dynamicHeight": "FIXED",
-    "widgetId": "1a6ah0uz9m",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "label": "",
-    "version": 2,
-    "parentId": "t8c87vq4kl",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "iconAlign": "left",
-    "defaultText": "",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": false,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 23,
+  "boxShadow": "none",
+  "defaultText": "",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "EMAIL",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "aw04wt3gi3",
+  "label": "",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onSubmit": "",
+  "onTextChanged": "{{storeValue('email',fields_email.text)}}",
+  "parentColumnSpace": 18.15625,
+  "parentId": "t8c87vq4kl",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": false,
+  "rightColumn": 59,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "topRow": 19,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "1a6ah0uz9m",
+  "widgetName": "fields_email"
 }
